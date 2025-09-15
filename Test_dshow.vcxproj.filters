@@ -48,6 +48,9 @@
     <ClInclude Include="..\..\Common\colors.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Common\subtitle\subtitle_setting.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_dshow.cpp">
@@ -69,6 +72,9 @@
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Common\colors.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\subtitle\subtitle_setting.cpp">
       <Filter>Common</Filter>
     </ClCompile>
   </ItemGroup>

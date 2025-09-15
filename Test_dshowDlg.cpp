@@ -103,9 +103,11 @@ BOOL CTest_dshowDlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
 	CString sfile;
-	sfile = _T("C:\\Japanese\\Chis.Sweet.Home.1st.TV.2008.DVDRip-Hi.x264.AC3.1280.EP001-nezumi.avi");
+	//sfile = _T("D:\\media\\test_video\\Megamind.avi");
+	sfile = _T("D:\\media\\test_video\\cup.mp4");
+	//sfile = _T("C:\\Japanese\\Chis.Sweet.Home.1st.TV.2008.DVDRip-Hi.x264.AC3.1280.EP001-nezumi.avi");
 	//sfile = _T("C:\\Users\\scpar\\temp\\Roman.Holiday.1953.1080p.WEBRip.DD2.0.x264-monkee\\Roman.Holiday.1953.1080p.WEBRip.DD2.0.x264-monkee.mkv");
-	m_media.load_media(sfile, this);
+	m_media.load_media(sfile, this);// , true);
 	m_media.play(State_Running);
 
 	DragAcceptFiles();
